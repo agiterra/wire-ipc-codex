@@ -1,0 +1,19 @@
+{
+  "name": "wire-ipc",
+  "version": "0.1.0",
+  "description": "Wire IPC — Ed25519 signed outbound messaging between agents.",
+  "author": {
+    "name": "Tim Garthwaite",
+    "url": "https://github.com/mividtim"
+  },
+  "repository": "https://github.com/agiterra/wire-ipc-codex",
+  "license": "MIT",
+  "keywords": ["wire", "ipc", "messaging", "agent", "ed25519", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Wire IPC",
+    "shortDescription": "Wire IPC — Ed25519 signed outbound messaging between agents",
+    "developerName": "Agiterra",
+    "category": "Developer Tools"
+  }
+}

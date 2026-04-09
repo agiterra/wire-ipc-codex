@@ -1,0 +1,20 @@
+{
+  "name": "@agiterra/wire-ipc-codex",
+  "version": "0.1.0",
+  "description": "Wire IPC plugin for Codex CLI — Ed25519 signed outbound messaging between agents.",
+  "license": "MIT",
+  "type": "module",
+  "bin": "./server.ts",
+  "scripts": {
+    "start": "bun install --no-summary && bun server.ts"
+  },
+  "dependencies": {
+    "@agiterra/wire-tools": "agiterra/wire-tools#v0.12.0",
+    "@agiterra/wire-ipc-tools": "agiterra/wire-ipc-tools#v0.4.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "author": "Tim Garthwaite <https://github.com/mividtim>"
+}
